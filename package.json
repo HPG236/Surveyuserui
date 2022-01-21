@@ -1,0 +1,51 @@
+{
+  "name": "threejs-boilerplate",
+  "version": "1.0.0",
+  "description": "A Threejs Boilerplate to aid in quick prototyping",
+  "proxy": "https://2l3r2dng24.execute-api.ap-south-1.amazonaws.com",
+  "scripts": {
+    "start": "node app.js",
+    "build": "webpack --config webpack.config.js && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sean-Bradley/Threejs-Boilerplate.git"
+  },
+  "keywords": [
+    "threejs",
+    "boilerplate",
+    "threejs boilerplate"
+  ],
+  "author": "Sean Bradley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sean-Bradley/Threejs-Boilerplate/issues"
+  },
+  "homepage": "https://github.com/Sean-Bradley/Threejs-Boilerplate#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^5.0.0",
+    "three": "^0.132.2",
+    "webpack": "^5.24.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.9.1"
+  }
+}
